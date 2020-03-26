@@ -1,0 +1,66 @@
+.allContent{
+    width: 1020px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header{
+    background: #d6f08f;
+    height: 200px;
+}
+.content{
+    width: 600px;
+    height: 500px;
+    float: left;
+    background: rgb(248, 255, 182);
+    text-align: left; 
+}
+.bokovaya{
+    width: 420px;
+    height: 500px;
+    float: right;
+    background: rgb(250, 196, 182);
+    
+}
+.footer{
+    height: 200px;
+    width: 1020px;
+    background: rgb(158, 253, 237);
+    clear: both;
+    
+}
+.first-menu{
+    margin: 10px;
+    padding: 10px;
+    background: #cc0000;
+    border: 4px double black
+}
+.second-menu{
+    margin: 10px;
+    padding: 10px;
+    background: #cc8b00;
+    border: 4px double black;
+}
+.third-menu{
+    margin: 10px;
+    padding: 10px;
+    background: #96cc00;
+    border: 4px double black;
+}
+.fourth-menu{
+    margin: 10px;
+    padding: 10px;
+    background: #3aeec7;
+    border: 4px double black;
+}
+.firstLink{
+    background: #cc0000;
+    color: #d6f08f;
+    text-decoration: none;
+}
+.ordered{
+    padding: 10px;
+}
+.zagolovok1{
+    margin: 10px 20px 10px 20px;
+}
+
