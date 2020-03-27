@@ -275,7 +275,3 @@ alert(persone.name);
 let creatMassive = ['Привет мой свет!', 'Second', 'Third'];
 
 console.log(creatMassive[0]);
-
-alert();
-
-
