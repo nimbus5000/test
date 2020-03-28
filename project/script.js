@@ -264,14 +264,24 @@
 //         }
 //     }
 
-let persone = {
-    name: "Dmitry",
-    age: 24,
-    isMaried: false,
+let money = prompt("Ваш бюджет на месяц?", "Введите ваш бютжет");
+
+let time = prompt("Введите дату в формате YYYY-MM-DD", "YYYY-MM-DD");
+
+let question1 = prompt("Введите обязательную статью расходов в этом месяце", ""),
+    question2 = prompt("Во сколько обойдется?", "");
+
+let appData = {
+    budget: money,
+    timeData: time,
+    expenses: {
+        questionOne: question1,
+        questionTwo: question2
+    },
+    optionalExpenses: {},
+    income: [],
+    saving: ""
 };
 
-alert(persone.name);
+alert((appData.expenses['questionOne'] / 30));
 
-let creatMassive = ['Привет мой свет!', 'Second', 'Third'];
-
-console.log(creatMassive[0]);
